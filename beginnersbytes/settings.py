@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.net', '.herokuapp.com']
 
@@ -92,6 +92,7 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.github.com",
     "https://*.herokuapp.com",
+    "https://*.codeinstitute-ide.net/",
     "https://8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.net"
 ]
 
