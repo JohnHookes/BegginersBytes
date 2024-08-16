@@ -27,9 +27,13 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.net', '8000-johnhookes-beginnersbyt-ylf6577vn3z.ws.codeinstitute-ide.net', '.herokuapp.com']
+ALLOWED_HOSTS = ['8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.net', 
+'8000-johnhookes-beginnersbyt-ylf6577vn3z.ws.codeinstitute-ide.net', 
+'8000-johnhookes-beginnersbyt-y853g1jpqmu.ws-eu115.gitpod.io',
+'.gitpod.io',
+ '.herokuapp.com']
 
 
 # Application definition
@@ -48,8 +52,8 @@ INSTALLED_APPS = [
     'django_summernote',
     'crispy_forms',
     'crispy_bootstrap5',
-    'crispy_bootstrap4',
     'blog',
+    'about',
 
 ]
 
@@ -59,7 +63,6 @@ LOGOUT_REDIRECT_URL = '/'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
