@@ -1,5 +1,6 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #034bdc;
+    border: red solid;
 }
 
 .brand {
@@ -19,10 +20,6 @@ body {
 
 .light-bg {
     background-color: #fff;
-}
-
-.dark-bg {
-    background-color: #445261;
 }
 
 .main-bg {
