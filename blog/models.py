@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 # Create your models here.
 
 REVIEW_CHOICES = [
@@ -25,12 +26,21 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)
     updated_on = models.DateTimeField(auto_now=True)
+    featured_image = CloudinaryField('image', default='placeholder')
+    youtube_video_url = models.URLField(max_length=300, blank=True, null=True)
 
     class Meta:
         ordering = ["-created_on"]
 
     def __str__(self):
         return f"{self.title} | written by {self.author}"
+
+    def get_embed_url(self):
+        if 'youtube.com' in self.youtube_video_url or 'youtu.be' in self.youtube_video_url:
+            # Handle YouTube URLs
+            video_id = self.youtube_video_url.split('v=')[-1] if 'v=' in self.youtube_video_url else self.youtube_video_url.split('/')[-1]
+            return f"https://www.youtube.com/embed/{video_id}"
+        return self.youtube_video_url  # If not YouTube, just return the URL (or handle other services similarly)
 
 
 class Comment(models.Model):
