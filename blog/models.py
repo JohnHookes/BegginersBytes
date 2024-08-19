@@ -57,7 +57,7 @@ class Comment(models.Model):
     score for the blog post.
     """
     review = models.CharField(max_length=2, choices=REVIEW_CHOICES, help_text="What do you rate this article out of 10, where 10 is the best?")
-    approved = models.BooleanField(default=True)
+    approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
 
     class Meta:
