@@ -1,5 +1,5 @@
- # Byte 2 Eat
-![image](https://github.com/user-attachments/assets/a7fc73bf-10f8-4ffa-af78-daa3be85604e)
+ # Beginners Bytes
+![image]()
 
 
 ## Contents
@@ -7,22 +7,24 @@
 - [Introduction](#introduction)
 - [Agile](#Agile) 
 - [Project Boards](#Project-Boards)
-- [Live Deployment](#Live-Deployment)
-- [Design](#Design)
 - [Wireframes](#Wireframes)
 - [Features](#Features)
-- [Technology](#Technology)
 - [Future Features](#Future-Features)
+- [Technology](#Technology)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
 - [Credits](#Credits)
-- [Content Credit](#Content-Credit)
 - [Further Thoughts](#Further-Thoughts)
 
 
 # The Begineers Bytes Team
 
-Carl Jones, Hugh Carey, Lewis Freeman, John Hookes, Sunita Arora, Jabbeer Jeerooburkhan
+- Carl Jones - (https://github.com/c-e-jones)
+- Hugh Carey
+- Lewis Freeman - (https://github.com/LewF-Dev)
+- John Hookes - (https://github.com/JohnHookes)
+- Sunita Arora - (https://github.com/AroraSunita)
+- Jabbeer Jeerooburkhan - (https://github.com/Jab90)
 
 [INSERT GITHUBLINKS HERE]
 
@@ -60,25 +62,63 @@ We used the project board in Github to stay organised and on top of the project 
 
 [Project Board](https://github.com/users/JohnHookes/projects/6/views/1)
 [GitHub Repository](https://github.com/JohnHookes/BeginnersBytes)
-[Heroku Deployment Link](INSERT LINK HERE)
+[Heroku Deployment Link](https://beginnersbytes-98bd1afb187a.herokuapp.com/)
 
 ![image](/documentation/images/readme/Projectboard.png)
 
+## Wireframes
 
+Here you will see the type of colour scheme and outlay we were looking to achieve with our project.
 
-## Live Deployment
+![image](/documentation/images/readme/homepage_wireframe.png)
+![image](/documentation/images/readme/blog_page_wireframe.png)
+![image](/documentation/images/readme/signout_page_wireframe.png)
 
-Live deployment via Heroku: https://hackathon3-byte-to-eat-project-25fab4e92590.herokuapp.com/
-
-## Design
-
-## Wireframes 
 
 ## Features
 
-## Technology
-
 ## Future Features
+
+## Technology Used
+
+- Gitpod - Code editor.
+- HTML - Page structure.
+- CSS - Custom styling.
+- Bootstrap - CSS Framework.
+- Django - Python Framework.
+- GitHub - Version control and Kanban board.
+- Google Fonts - Fonts used throughout the website.
+- AllAuth - used for authenticating users. 
+- Heroku PostgreSQL - Used as the database.
+- Heroku - For hosting the deployment of this project.
+- Font Awesome - For social media icons.
+- Cloudinary - Used for hosting the static files for images.
+- Stack Overflow 
+- Chat GPT 
+- Youtube
+- Pinterest
+- Google Chrome Dev Tools - Helpful for debugging, fixing errors and checking app responsiveness.
+
+
+#### Django Requirements 
+
+- asgiref==3.7.2
+- cloudinary==1.41.0
+- crispy-bootstrap5==0.7
+- dj-database-url==0.5.0
+- Django==4.2.7
+- django-allauth==0.57.0
+- django-cloudinary-storage==0.3.0
+- django-crispy-forms==2.1
+- django-summernote==0.8.20.0
+- gunicorn==20.1.0
+- oauthlib==3.2.2
+- psycopg2==2.9.6
+- PyJWT==2.8.0
+- python3-openid==3.2.0
+- requests-oauthlib==1.3.1
+- sqlparse==0.4.4
+- whitenoise==5.3.0
 
 ## Testing
 
@@ -86,7 +126,9 @@ Live deployment via Heroku: https://hackathon3-byte-to-eat-project-25fab4e92590.
 
 ## Credits
 
-## Content Credit
+- Pinterest
+- https://www.pinterest.co.uk/search/pins/?q=fun%20free%20computer%20images&rs=typed
+- Youtube 
 
 
 ## Further Thoughts
