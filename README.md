@@ -1,131 +1,158 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ # Beginners Bytes
+![image](/documentation/images/readme/bytes%20image.webp)
 
-Welcome John Hooks,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Contents
+- [The Team](#the-begineers-bytes-team)
+- [Introduction](#introduction)
+- [Agile](#Agile) 
+- [Project Boards](#Project-Boards)
+- [Wireframes](#Wireframes)
+- [Features](#Features)
+- [Future Features](#Future-Features)
+- [Technology](#Technology)
+- [Testing](#Testing)
+- [Validator Testing](#Validator-Testing)
+- [Credits](#Credits)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
-## Gitpod Reminders
+# The Begineers Bytes Team
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Carl Jones - (https://github.com/c-e-jones)
+- Hugh Carey
+- Lewis Freeman - (https://github.com/LewF-Dev)
+- John Hookes - (https://github.com/JohnHookes)
+- Sunita Arora - (https://github.com/AroraSunita)
+- Jabbeer Jeerooburkhan - (https://github.com/Jab90)
 
-`python3 -m http.server`
+## Introduction
 
-A blue button should appear to click: _Make Public_,
+Welcome to Beginners Bytes, the idea behind this website/blog is to have a comprehensive online platform designed to help newcomers to the world of coding get started with the fundamentals of web development. The website offers a range of interactive tutorials, guides, and resources to learn HTML, CSS, JavaScript, Python, and Django from scratch. With a focus on simplicity and clarity, Beginner Bytes breaks down complex concepts into bite-sized chunks, making it easy for beginners to grasp and build upon their skills. Whether you're looking to create a personal website, build a web application, or simply understand how the web works, Beginner Bytes provides a supportive and engaging environment to learn and grow. With its step-by-step approach, interactive coding exercises, and real-world examples, Beginner Bytes is the perfect resource for anyone looking to take their first steps in coding and web development.
 
-Another blue button should appear to click: _Open Browser_.
+The website was created during Hackathon 3, dated from 15/08/24 - 19/08/24. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Goals for this hackathon was to show off our skills we've learnt to produce a full stack development project using HTML, CSS, JavaScript, Python and Django as a team. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Agile
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Project Boards
 
-To log into the Heroku toolbelt CLI:
+Using Agile, the project was designed with the minimum viable product (MVP) in mind. With this being said we went for a simplistic approach making sure we have full functionality before any features were added.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Must do's: 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- Login and registration (authentication) for users of the blog to sign into their accounts. 
+- Simple and effortless navigation around the site.
+- A screen for comments to be added, edited or deleted.
 
-### Connecting your Mongo database
+Should do: 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+- Allow authenticated users the ability to comment on blog posts 
 
-------
+Won't do: 
 
-## Release History
+- Email/reset password login details as this would require an email server and is beyond the scope of this project.
+- Multiple blog pages and a search bar for users to find specific articles only due to time constraints and we want to just show the basic functionality for now. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+We used the project board in Github to stay organised and on top of the project by creating tasks. 
 
-**June 18, 2024,** Add Mongo back into template
+- [Project Board](https://github.com/users/JohnHookes/projects/6/views/1)
+- [GitHub Repository](https://github.com/JohnHookes/BeginnersBytes)
+- [Heroku Deployment Link](https://beginnersbytes-98bd1afb187a.herokuapp.com/)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+![image](/documentation/images/readme/Projectboard.png)
 
-**May 28 2024:** Fix Mongo and Links installs
+## Wireframes
 
-**April 26 2024:** Update node version to 16
+Here you will see the type of colour scheme and outlay we were looking to achieve with our project.
 
-**September 20 2023:** Update Python version to 3.9.17.
+![image](/documentation/images/readme/homepage_wireframe.png)
+![image](/documentation/images/readme/blog_page_wireframe.png)
+![image](/documentation/images/readme/signout_page_wireframe.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The main feature of the site is for newbie coders to see blog posts and see how they can benefit from it, the authenticated users are able to comment, edit their comments, delete their comments and leave a review. Theres also an about page where the user can see a breif overview as to what the site is about, non authenticated users can see this to. 
+Below are screenshots of the features on the site: 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![image](/documentation/images/readme/homepagess.png)
+![image](/documentation/images/readme/mobile_view.png)
+![image](/documentation/images/readme/feature_of_pagination.png)
+![image](/documentation/images/readme/comments.png)
+![image](/documentation/images/readme/user_comments.png)
+![image](/documentation/images/readme/delete_modal.png)
+![image](/documentation/images/readme/delete_modal.png)
+![image](/documentation/images/readme/sign_out.png)
+![image](/documentation/images/readme/register.png)
+![image](/documentation/images/readme/sign_in.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Future Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Ability for users to update and contribute blog posts to the website.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technology Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Gitpod - Code editor.
+- HTML - Page structure.
+- CSS - Custom styling.
+- JavaScript
+- Bootstrap - CSS Framework.
+- Django - Python Framework.
+- GitHub - Version control and Kanban board.
+- Google Fonts - Fonts used throughout the website.
+- AllAuth - used for authenticating users. 
+- Heroku PostgreSQL - Used as the database.
+- Heroku - For hosting the deployment of this project.
+- Font Awesome - For social media icons.
+- Cloudinary - Used for hosting the static files for images.
+- Stack Overflow 
+- Chat GPT 
+- Youtube
+- Pinterest
+- Google Chrome Dev Tools - Helpful for debugging, fixing errors and checking app responsiveness.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Django Requirements 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- asgiref==3.7.2
+- cloudinary==1.41.0
+- crispy-bootstrap5==0.7
+- dj-database-url==0.5.0
+- Django==4.2.7
+- django-allauth==0.57.0
+- django-cloudinary-storage==0.3.0
+- django-crispy-forms==2.1
+- django-summernote==0.8.20.0
+- gunicorn==20.1.0
+- oauthlib==3.2.2
+- psycopg2==2.9.6
+- PyJWT==2.8.0
+- python3-openid==3.2.0
+- requests-oauthlib==1.3.1
+- sqlparse==0.4.4
+- whitenoise==5.3.0
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Below is the typical errors we were getting with our html files due to this incorporating the django styling which the validator doesn't like
+![image](/documentation/images/readme/html_test.png)
 
-------
+For CSS we used the W3C validator 
 
-## FAQ about the uptime script
+![image](/documentation/images/readme/css_vaid.png)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Pinterest
+- https://www.pinterest.co.uk/search/pins/?q=fun%20free%20computer%20images&rs=typed
+- Youtube 
+- https://computer.howstuffworks.com/bytes.htm
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Special thanks to all the code institute team that have worked with us througout the course and this project. 
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
