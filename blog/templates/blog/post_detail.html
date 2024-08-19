@@ -37,6 +37,15 @@
             </div>
         </div>
     </div>
+  <div>
+    {% if post.youtube_video_url %}
+            <div class="video">
+                 <iframe src="{{ post.get_embed_url }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+    {% endif %}
+</div>
+  
+  
     <!-- Displaying count of comments -->
   <div class="row">
     <div class="col-12">
@@ -121,8 +130,13 @@
     </div>
   </div>
 </div>
-
+ main
 {% endblock content %}
 {% block extras %}
 <script src="{% static 'js/comments.js' %}"></script>
 {% endblock %}
+
+
+
+{% endblock content %}
+john_branch
