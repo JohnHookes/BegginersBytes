@@ -78,16 +78,27 @@ The main feature of the site is for newbie coders to see blog posts and see how 
 Below are screenshots of the features on the site: 
 
 ![image](/documentation/images/readme/homepagess.png)
-
+![image](/documentation/images/readme/mobile_view.png)
+![image](/documentation/images/readme/feature_of_pagination.png)
+![image](/documentation/images/readme/comments.png)
+![image](/documentation/images/readme/user_comments.png)
+![image](/documentation/images/readme/delete_modal.png)
+![image](/documentation/images/readme/delete_modal.png)
+![image](/documentation/images/readme/sign_out.png)
+![image](/documentation/images/readme/register.png)
+![image](/documentation/images/readme/sign_in.png)
 
 
 ## Future Features
+
+- Ability for users to update and contribute blog posts to the website.
 
 ## Technology Used
 
 - Gitpod - Code editor.
 - HTML - Page structure.
 - CSS - Custom styling.
+- JavaScript
 - Bootstrap - CSS Framework.
 - Django - Python Framework.
 - GitHub - Version control and Kanban board.
@@ -126,7 +137,14 @@ Below are screenshots of the features on the site:
 
 ## Testing
 
-## Validator Testing
+Below is the typical errors we were getting with our html files due to this incorporating the django styling which the validator doesn't like
+![image](/documentation/images/readme/html_test.png)
+
+For CSS we used the W3C validator 
+
+![image](/documentation/images/readme/css_vaid.png)
+
+
 
 ## Credits
 
@@ -136,5 +154,5 @@ Below are screenshots of the features on the site:
 - https://computer.howstuffworks.com/bytes.htm
 
 
-### 
-### 
+Special thanks to all the code institute team that have worked with us througout the course and this project. 
+
