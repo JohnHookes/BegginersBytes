@@ -1,5 +1,5 @@
  # Beginners Bytes
-![image]()
+![image](/documentation/images/readme/bytes%20image.webp)
 
 
 ## Contents
@@ -14,7 +14,6 @@
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
 - [Credits](#Credits)
-- [Further Thoughts](#Further-Thoughts)
 
 
 # The Begineers Bytes Team
@@ -25,8 +24,6 @@
 - John Hookes - (https://github.com/JohnHookes)
 - Sunita Arora - (https://github.com/AroraSunita)
 - Jabbeer Jeerooburkhan - (https://github.com/Jab90)
-
-[INSERT GITHUBLINKS HERE]
 
 ## Introduction
 
@@ -58,11 +55,11 @@ Won't do:
 - Email/reset password login details as this would require an email server and is beyond the scope of this project.
 - Multiple blog pages and a search bar for users to find specific articles only due to time constraints and we want to just show the basic functionality for now. 
 
-We used the project board in Github to stay organised and on top of the project by creating tasks and user stories. 
+We used the project board in Github to stay organised and on top of the project by creating tasks. 
 
-[Project Board](https://github.com/users/JohnHookes/projects/6/views/1)
-[GitHub Repository](https://github.com/JohnHookes/BeginnersBytes)
-[Heroku Deployment Link](https://beginnersbytes-98bd1afb187a.herokuapp.com/)
+- [Project Board](https://github.com/users/JohnHookes/projects/6/views/1)
+- [GitHub Repository](https://github.com/JohnHookes/BeginnersBytes)
+- [Heroku Deployment Link](https://beginnersbytes-98bd1afb187a.herokuapp.com/)
 
 ![image](/documentation/images/readme/Projectboard.png)
 
@@ -129,9 +126,8 @@ Here you will see the type of colour scheme and outlay we were looking to achiev
 - Pinterest
 - https://www.pinterest.co.uk/search/pins/?q=fun%20free%20computer%20images&rs=typed
 - Youtube 
+- https://computer.howstuffworks.com/bytes.htm
 
-
-## Further Thoughts
 
 ### 
 ### 
