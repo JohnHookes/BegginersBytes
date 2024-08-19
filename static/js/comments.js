@@ -41,6 +41,7 @@ for (let button of deleteButtons) {
   button.addEventListener("click", (e) => {
     let commentId = e.target.getAttribute("comment_id");
     deleteConfirm.href = `delete_comment/${commentId}`;
+    console.log("Delete button clicked for comment ID: " + commentId);
     deleteModal.show();
   });
 }
