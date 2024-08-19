@@ -38,13 +38,23 @@
         </div>
     </div>
   <div>
-    {% if post.youtube_video_url %}
-            <div class="video">
-                 <iframe src="{{ post.get_embed_url }}" frameborder="0" allowfullscreen></iframe>
-            </div>
-    {% endif %}
 </div>
   
+<!-- Displays an iframe of a video, with redundant cols to put it into BS grid -->
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+    </div>
+    <div class="col-9">
+      {% if post.youtube_video_url %}
+      <div class="video">
+           <iframe src="{{ post.get_embed_url }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+      {% endif %}
+      <div class="col-3"></div>
+    </div>
+  </div>
+</div>
   
     <!-- Displaying count of comments -->
   <div class="row">
@@ -130,7 +140,13 @@
     </div>
   </div>
 </div>
+
+
 {% endblock content %}
 {% block extras %}
 <script src="{% static 'js/comments.js' %}"></script>
 {% endblock %}
+
+
+
+
