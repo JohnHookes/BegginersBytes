@@ -74,6 +74,13 @@ Here you will see the type of colour scheme and outlay we were looking to achiev
 
 ## Features
 
+The main feature of the site is for newbie coders to see blog posts and see how they can benefit from it, the authenticated users are able to comment, edit their comments, delete their comments and leave a review. Theres also an about page where the user can see a breif overview as to what the site is about, non authenticated users can see this to. 
+Below are screenshots of the features on the site: 
+
+![image](/documentation/images/readme/homepagess.png)
+
+
+
 ## Future Features
 
 ## Technology Used
