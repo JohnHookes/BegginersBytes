@@ -1,12 +1,12 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #182c55;
 }
 
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: #ffffff;
 }
 
 .red-o {
@@ -18,11 +18,11 @@ body {
 }
 
 .light-bg {
-    background-color: #fff;
+    background-color: #9b1e1e;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #1852c5;
 }
 
 .card {
@@ -39,7 +39,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color: #449494;
 }
 
 .scale {
@@ -63,7 +63,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
+    background-color: #185da7;
     color: white;
     position: relative;
 }
@@ -80,7 +80,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: #ccd8e6;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -154,4 +154,8 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+#bg-dark {
+    background-color: #071635 !important;
 }
