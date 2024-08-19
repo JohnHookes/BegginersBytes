@@ -119,6 +119,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.github.com",
     "https://*.herokuapp.com",
     "https://*.codeinstitute-ide.net/",
+    "https://8000-johnhookes-beginnersbyt-y58h3w3s8vd.ws-eu115.gitpod.io",
     "https://8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.net",
     "https://8000-johnhookes-beginnersbyt-y853g1jpqmu.ws-eu115.gitpod.io"
 ]
