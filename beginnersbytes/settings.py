@@ -33,7 +33,8 @@ ALLOWED_HOSTS = ['8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.
 '8000-johnhookes-beginnersbyt-ylf6577vn3z.ws.codeinstitute-ide.net', 
 '8000-johnhookes-beginnersbyt-y853g1jpqmu.ws-eu115.gitpod.io',
 '.gitpod.io',
- '.herokuapp.com']
+'.herokuapp.com',
+ ]
 
 
 # Application definition
@@ -54,6 +55,8 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'blog',
     'about',
+    'cloudinary_storage',
+    'cloudinary',
 
 ]
 
