@@ -34,7 +34,8 @@ ALLOWED_HOSTS = ['8000-johnhookes-beginnersbyt-x8s5g9wc5pr.ws.codeinstitute-ide.
 '8000-johnhookes-beginnersbyt-y853g1jpqmu.ws-eu115.gitpod.io',
 '.gitpod.io',
 '.herokuapp.com',
-'8000-johnhookes-beginnersbyt-mzg3eu44lfn.ws.codeinstitute-ide.net'
+'8000-johnhookes-beginnersbyt-mzg3eu44lfn.ws.codeinstitute-ide.net',
+'8000-johnhookes-beginnersbyt-i1qy6crzd9h.ws.codeinstitute-ide.net',
  ]
 
 
